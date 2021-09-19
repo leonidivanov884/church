@@ -1,0 +1,15 @@
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1330px; }
+
+body, html {
+  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden; }
+
+section {
+  position: relative; }
+
+button {
+  cursor: pointer; }

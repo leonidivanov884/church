@@ -1,0 +1,67 @@
+@media (min-width: 1200px) {
+    .footer__nav ul li a,
+  .frst__bot *,
+  .head__nav ul a,
+  .head__phone,
+  .srv__l-tabs li {
+        transition: color .3s;
+    }
+
+    .footer__nav ul li a:hover,
+  .frst__bot *:hover,
+  .srv__l-tabs li:hover {
+        color: #F80000;
+    }
+
+    .head__nav ul a:hover,
+  .head__phone:hover {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .btn-send, .blgrabt__soc li a {
+        transition: background .25s;
+    }
+
+    .btn-send:hover,
+  .blgrabt__soc li a:hover {
+        background: #cc0000;
+    }
+
+    .btn:hover button::after,
+  .btn:hover a::after,
+  .btn:hover button::before,
+  .btn:hover a::before {
+        -webkit-animation-play-state: paused;
+        animation-play-state: paused;
+    }
+
+    .btn:hover span::after,
+  .btn:hover span::before {
+        -webkit-animation-play-state: paused;
+        animation-play-state: paused;
+    }
+
+    .blgs__r-link:hover {
+        text-decoration: none;
+    }
+
+    .popup__close {
+        transition: opacity .3s, -webkit-transform .3s;
+        transition: transform .3s, opacity .3s;
+        transition: transform .3s, opacity .3s, -webkit-transform .3s;
+    }
+
+    .popup__close:hover {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0.8;
+    }
+
+    .burger {
+        transition: opacity .3s;
+    }
+
+    .burger:hover {
+        opacity: 0.6;
+    }
+}

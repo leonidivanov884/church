@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../fonts/SFProDisplay/SFProDisplay-Thin.woff2") format("woff2"), url("./assets/fonts/SFProDisplay/SFProDisplay-Thin.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SFProDisplay";
+  src: url("../fonts/SFProDisplay/SFProDisplay-Light.woff2") format("woff2"), url("./assets/fonts/SFProDisplay/SFProDisplay-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "SFProDisplay";
+  src: url("../fonts/SFProDisplay/SFProDisplay-Regular.woff2") format("woff2"), url("./assets/fonts/SFProDisplay/SFProDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "SFProDisplay";
+  src: url("../fonts/SFProDisplay/SFProDisplay-Medium.woff2") format("woff2"), url("./assets/fonts/SFProDisplay/SFProDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "SFProDisplay";
+  src: url("../fonts/SFProDisplay/SFProDisplay-Semibold.woff2") format("woff2"), url("./assets/fonts/SFProDisplay/SFProDisplay-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "DrukTextWideCyr";
+  src: url("../fonts/DrukTextWideCyr/DrukTextWideCyr-Medium.woff2") format("woff2"), url("./assets/fonts/DrukTextWideCyr/DrukTextWideCyr-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.slick-list {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    line-height: 140%;
+    font-family: 'SFProDisplay', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
+    background: #050505;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+}
+
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
